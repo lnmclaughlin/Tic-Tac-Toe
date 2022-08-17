@@ -1,5 +1,5 @@
 body {
-  background-color: midnightblue;
+  background: rgb(4, 36, 8);
   font-family: "Montserrat", sans-serif;
   color: white;
   margin: 20px;
@@ -22,16 +22,16 @@ ul {
 }
 
 .square {
-  background: rgb(66, 31, 109);
-  border: 1px solid rgb(0, 207, 239);
+  background: rgb(4, 36, 8);
+  border: 1px solid rgb(179, 179, 179);
   float: left;
   color: white;
-  font-size: 24px;
+  font-size: 46px;
   font-weight: bold;
-  line-height: 34px;
-  height: 34px;
+  line-height: 30px;
+  height: 125px;
   text-align: center;
-  width: 34px;
+  width: 125px;
 }
 
 .square:focus {
@@ -39,7 +39,7 @@ ul {
 }
 
 .kbd-navigation .square:focus {
-  background: midnightblue;
+  background: rgb(4, 36, 8);
 }
 
 .game {
@@ -49,12 +49,5 @@ ul {
   align-items: center;
   line-height: 2.5em;
   text-align: center;
-}
-
-.game-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-left: 20px;
+  color: white;
 }
